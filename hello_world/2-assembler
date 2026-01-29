@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-#!/bin/bash
-gcc -S "$CFILE"
-=======
-#!/bin/bash
-gcc -S "$CFILE"
->>>>>>> f5ab6529a64a2f3f8db75738ccf5b86f80725bf3
