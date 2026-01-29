@@ -3,20 +3,19 @@
 
 /**
  * print_to_98 - prints all natural numbers from n to 98
- * @n: starting number
- */
+ *@n: starting point
+* Return: returns nothing
+*/
+
 void print_to_98(int n)
 {
-    if (n <= 98)
-    {
-        while (n < 98)
-            printf("%d, ", n++);
-        printf("98\n");
-    }
-    else
-    {
-        while (n > 98)
-            printf("%d, ", n--);
-        printf("98\n");
-    }
+if (n <= 98)
+{
+for (n = n; n <= 97; n++)
+printf("%d, ", n);
+}
+else
+for (n = n; n > 98; n--)
+printf("%d, ", n);
+printf("98\n");
 }
